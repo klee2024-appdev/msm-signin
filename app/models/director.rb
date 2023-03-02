@@ -12,5 +12,5 @@
 #
 class Director < ApplicationRecord
 
-    has_many: filmography, :class_name => "Movie"
+    has_many :filmography, :class_name => "Movie"
 end
